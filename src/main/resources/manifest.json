@@ -1,22 +1,22 @@
 {
-    "Group": "Example",
-    "Name": "ExamplePlugin",
-    "Version": "0.0.2",
-    "Description": "An example plugin for HyTale!",
+    "Group": "OurStory",
+    "Name": "osessentials",
+    "Version": "0.1.0",
+    "Description": "Utility commands for Hytale servers: tpa, home, warp, spawn.",
     "Authors": [
         {
-            "Name": "It's you!"
+            "Name": "LevelsCraft7"
         }
     ],
-    "Website": "example.org",
+    "Website": "https://curseforge.com/hytale/mods/os-essentials",
     "ServerVersion": "*",
     "Dependencies": {
-        
+        "Hytale:CorePlugin": ">=1.0.0"
     },
     "OptionalDependencies": {
         
     },
     "DisabledByDefault": false,
-    "Main": "org.example.plugin.ExamplePlugin",
+    "Main": "com.ourstory.osessentials.OsEssentialsPlugin",
     "IncludesAssetPack": true
 }
