@@ -1,7 +1,7 @@
 {
     "Group": "OurStory",
     "Name": "osessentials",
-    "Version": "0.1.0",
+    "Version": "0.1.4",
     "Description": "Essential utility commands for Hytale servers.",
     "Authors": [
         {
