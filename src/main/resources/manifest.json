@@ -2,21 +2,21 @@
     "Group": "OurStory",
     "Name": "osessentials",
     "Version": "0.1.0",
-    "Description": "Utility commands for Hytale servers: tpa, home, warp, spawn.",
+    "Description": "Essential utility commands for Hytale servers.",
     "Authors": [
         {
             "Name": "LevelsCraft7"
         }
     ],
-    "Website": "https://curseforge.com/hytale/mods/os-essentials",
+    "Website": "https://github.com/LevelsCraft7/OS-Essentials",
     "ServerVersion": "*",
     "Dependencies": {
-        "Hytale:CorePlugin": ">=1.0.0"
+        
     },
     "OptionalDependencies": {
         
     },
     "DisabledByDefault": false,
-    "Main": "com.ourstory.osessentials.OsEssentialsPlugin",
-    "IncludesAssetPack": true
+    "IncludesAssetPack": true,
+    "Main": "com.ourstory.osessentials.OsEssentialsPlugin"
 }

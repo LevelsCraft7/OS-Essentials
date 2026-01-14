@@ -2,25 +2,29 @@ package com.ourstory.osessentials;
 
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
-
-import javax.annotation.Nonnull;
-import java.util.logging.Level;
+import com.ourstory.osessentials.commands.OsVersionCommand;
 
 public class OsEssentialsPlugin extends JavaPlugin {
 
-    public OsEssentialsPlugin(@Nonnull JavaPluginInit init) {
+    public OsEssentialsPlugin(JavaPluginInit init) {
         super(init);
     }
 
+    @Override
     protected void setup() {
-        this.getLogger().at(Level.INFO).log("[OS Essentials] Setup");
+        System.out.println("[OS Essentials] setup()");
     }
 
+    @Override
     protected void start() {
-        this.getLogger().at(Level.INFO).log("[OS Essentials] Started");
+        System.out.println("[OS Essentials] start()");
+
+        // Enregistrement d'une commande de test
+        getCommandRegistry().registerCommand(new OsVersionCommand());
     }
 
+    @Override
     protected void shutdown() {
-        this.getLogger().at(Level.INFO).log("[OS Essentials] Shutdown");
+        System.out.println("[OS Essentials] shutdown()");
     }
 }
